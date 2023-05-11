@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+}
+
+body {
+    
+    color: #fff;
+    background-color: #36418b;
+}
+header {
+    background-color: #242948;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+
+
+.tabs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+
+}
+
+.tab {
+    background-color: #7d8be9;
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tabAllContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 67px
+}
+
+.all-tasks{
+    position: relative;
+    right: 300px;
+}
+
+.all-tasks h2 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+
+.tabTodayContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 67px
+}
+
+.today-tasks{
+    position: relative;
+    right: 300px;
+}
+
+.today-tasks h2 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+.tabWeekContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 67px
+}
+
+.week-tasks{
+    position: relative;
+    right: 300px;
+}
+
+.week-tasks h2 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+.tabImportantContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 67px
+}
+
+.important-tasks{
+    position: relative;
+    right: 300px;
+}
+
+.important-tasks h2 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+
+.tabCompletedContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 67px
+}
+
+.completed-tasks{
+    position: relative;
+    right: 300px;
+}
+
+.completed-tasks h2 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
